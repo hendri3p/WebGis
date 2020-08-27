@@ -29,6 +29,15 @@
 
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <style>
+        /* script menghilangkan Horizontal Scroll */
+        html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        }
+    </style>
+
 </head>
 
 <body>
