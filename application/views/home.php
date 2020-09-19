@@ -13,8 +13,8 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/login.css');?>" >
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/login.css" >
+    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/magnific-popup.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/font-awesome.min.css">
@@ -23,10 +23,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/flaticon.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/gijgo.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/animate.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/slick.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/slicknav.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
-
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
@@ -56,7 +53,7 @@
                                         <li><a class="active" href="<?= base_url('c_home/index')?>">Beranda</a></li>
                                             <li><a href="<?= base_url('c_about/index')?>">Info</a></li>
                                             <li><a href="<?= base_url('c_kontak/index')?>">Kontak</a></li>
-                                            <li><a href="#"id="myBtn"> Admin</i></a>
+                                            <li><a href="<?= base_url('Auth/index')?>"> Admin</i></a>
                                         </ul>
                                     </nav>
                                 </div>
@@ -94,28 +91,27 @@
     </header>
     <!-- header-end -->
 
-    <!-- slider_area_start -->
-    <div class="bradcam_area bradcam_bg_4">
+     <!-- bradcam_area  -->
+     <div class="bradcam_area bradcam_bg_4" >
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="bradcam_text text-center">
                         <div class="logo">
-                            <a href="index.html">
-                                <img src="<?php echo base_url('assets/');?>img/354px-LOGO_KABUPATEN_TULANG_BAWANG.png" alt="" style="width: 150px;height: 200px; margin: auto; margin-top: 0px;">
+                                    <a href="index.html">
+                                        <img src="<?php echo base_url('assets/');?>img/354px-LOGO_KABUPATEN_TULANG_BAWANG.png" alt="" style="width: 150px;height: 215px; margin: 10px; margin-top: 0px;">
 
-                            </a>
-                        </div>
-                        <h1 style= "color: white ; font-size: 50px; font-family: 'Montserrat',sans-serif; padding: 20px;">Situs Resmi <br> Kabupaten Tulang Bawang</h1>
-                                <p style=" font-size: 15px; ">SITUS INI ADALAH SITUS WEB GIS NILAI TANAH DI KABUPATEN TULANG BAWANG </p>
-                                <a href="#" class="boxed-btn3" style="color: black; margin: 20px;">KUNJUNGI SITUS WEB GIS</a>
+                                    </a>
+                                </div>
+                        <h1 style="color:white ; font-size: 50px; font-family: 'Montserrat',sans-serif; padding: 20px; "> Situs Resmi <br> Kabupaten Tulang Bawang </h1>
+                        <p style=" font-size: 15px; ">SITUS INI ADALAH SITUS WEB GIS NILAI TANAH DI KABUPATEN TULANG BAWANG </p>
+                        <a href="#" class="boxed-btn3" style="color: black; margin: 20px;">KUNJUNGI SITUS WEB GIS</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-    <!-- slider_area_end -->
+    <!--/ bradcam_area  -->
 
     <!-- footer start -->
     <footer class="footer">
@@ -142,34 +138,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
     <!--/ footer end  -->
 
-  <!-- Modal -->
-    <!-- <button id="myBtn">Open Modal</button> -->
-    <div id="myModal" class="modal">
-        <div class="wrapper fadeInDown">
-            <div id="formContent">
-              <!-- Tabs Titles -->
-              <span class="close">&times;</span>
-              <!-- Login Form -->
-              <div id="card-content">
-                <div id="card-title">
-                  <h2 style="padding-top: 20px; padding-left: 30px;">Login</h2>
-                  <div class="underline-title"></div>
-                </div>
-              </div>
-              <form>
-                <input type="text" id="login" class="fadeIn second" name="username" placeholder="username">
-                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-                <input type="submit" class="fadeIn fourth" value="Log In" style="margin-top: 20px;">
-              </form>
-          
-              <!-- Remind Passowrd -->
-              <div id="formFooter">
-                <a class="underlineHover" href="#">Forgot Password?</a>
-              </div>
-          
-            </div>
-          </div>
-    </div>
     
         <!-- JS here -->
         <script> 
