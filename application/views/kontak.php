@@ -26,15 +26,6 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/slicknav.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-
-    <style>
-        /* script menghilangkan Horizontal Scroll */
-        html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -53,7 +44,7 @@
                                         <li><a class="active" href="<?= base_url('c_home/index')?>">Beranda</a></li>
                                             <li><a href="<?= base_url('c_about/index')?>">Info</a></li>
                                             <li><a href="<?= base_url('c_kontak/index')?>">Kontak</a></li>
-                                            <li><a href="<?= base_url('Auth/index')?>"> Admin</i></a>
+                                            <li><a href="#"id="myBtn"> Admin</i></a>
                                         </ul>
                                     </nav>
                                 </div>

@@ -29,15 +29,6 @@
 
     <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-
-    <style>
-        /* script menghilangkan Horizontal Scroll */
-        html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -56,7 +47,7 @@
                                         <li><a class="active" href="<?= base_url('c_home/index')?>">Beranda</a></li>
                                             <li><a href="<?= base_url('c_about/index')?>">Info</a></li>
                                             <li><a href="<?= base_url('c_kontak/index')?>">Kontak</a></li>
-                                            <li><a href="<?= base_url('Auth/index')?>"> Admin</a></li>
+                                            <li><a href="#"id="myBtn"> Admin</i></a>
                                         </ul>
                                     </nav>
                                 </div>
@@ -76,6 +67,12 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- <div class="seach_icon">
+                                <a data-toggle="modal" data-target="#exampleModalCenter" href="#">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div> -->
                             <div class="col-12">
                                 <div class="mobile_menu d-block d-lg-none"></div>
                             </div>
@@ -144,26 +141,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
               <!-- Tabs Titles -->
               <span class="close">&times;</span>
               <!-- Login Form -->
-              <?php echo form_open('home/index', 'id=myBtn'); ?>
-                    <div id="card-content">
-                        <div id="card-title">
-                            <h2 style="padding-top: 20px; padding-left: 30px;">Login</h2>
-                        <div class="underline-title"></div>
-                        </div>
-                    </div>
-              
+              <div id="card-content">
+                <div id="card-title">
+                  <h2 style="padding-top: 20px; padding-left: 30px;">Login</h2>
+                  <div class="underline-title"></div>
+                </div>
+              </div>
+              <form>
                 <input type="text" id="login" class="fadeIn second" name="username" placeholder="username">
                 <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
                 <input type="submit" class="fadeIn fourth" value="Log In" style="margin-top: 20px;">
-            
+              </form>
           
               <!-- Remind Passowrd -->
               <div id="formFooter">
                 <a class="underlineHover" href="#">Forgot Password?</a>
               </div>
-              <?php echo form_close(); ?>
+          
             </div>
-        </div>
+          </div>
     </div>
     
         <!-- JS here -->

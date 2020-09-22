@@ -3,19 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class c_home extends CI_Controller {
 
-				//Set Remember Me Checkbox
-				// $checked = (isset($_POST['checkbox']))?true:false;
-				// if ($checked) {
-				// 	$this->config->load('config');
-				// 	$this->config->set_item('sess_expiration', 10);
-				// 	$this->session->set_userdata($user_data);
-				// }else{
-				// 	$this->config->load('config');
-				// 	$this->config->set_item('sess_expiration', 10);
-				// 	$this->session->set_userdata($user_data);
-				// }
-				
-
 	/**
 	 * Index Page for this controller.
 	 *
