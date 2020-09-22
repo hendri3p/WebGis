@@ -90,7 +90,7 @@
                     <div class="bradcam_text text-center">
                         <div class="logo">
                                     <a href="index.html">
-                                        <img src="<?php echo base_url('assets/');?>img/354px-LOGO_KABUPATEN_TULANG_BAWANG.png" alt="" style="width: 150px;height: 215px; margin: 10px; margin-top: 0px;">
+                                        <img src="<?php echo base_url('assets/');?>img/354px-LOGO_KABUPATEN_TULANG_BAWANG.png" alt="" style="width: 150px;height: 200px; margin: auto; margin-top: 0px;">
 
                                     </a>
                                 </div>
@@ -188,6 +188,35 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
     <!--/ footer end  -->
     
+  <!-- Modal -->
+    <!-- <button id="myBtn">Open Modal</button> -->
+    <div id="myModal" class="modal">
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+              <!-- Tabs Titles -->
+              <span class="close">&times;</span>
+              <!-- Login Form -->
+              <div id="card-content">
+                <div id="card-title">
+                  <h2 style="padding-top: 20px; padding-left: 30px;">Login</h2>
+                  <div class="underline-title"></div>
+                </div>
+              </div>
+              <form>
+                <input type="text" id="login" class="fadeIn second" name="username" placeholder="username">
+                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                <input type="submit" class="fadeIn fourth" value="Log In" style="margin-top: 20px;">
+              </form>
+          
+              <!-- Remind Passowrd -->
+              <div id="formFooter">
+                <a class="underlineHover" href="#">Forgot Password?</a>
+              </div>
+          
+            </div>
+          </div>
+    </div>
+    
         <!-- JS here -->
         <script> 
         var modal= document.getElementById("myModal");
@@ -258,5 +287,3 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </body>
     
     </html>
-
-    
