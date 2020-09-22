@@ -53,7 +53,7 @@
                                             <li><a class="active" href="<?= base_url('c_home/index')?>">Beranda</a></li>
                                             <li><a href="<?= base_url('c_about/index')?>">Info</a></li>
                                             <li><a href="<?= base_url('c_kontak/index')?>">Kontak</a></li>
-                                            <li><a href="#"id="myBtn"> Admin</i></a>
+                                            <li><a href="<?= base_url('Auth/index')?>"> Admin</i></a>
                                         </ul>
                                     </nav>
                                 </div>
