@@ -7,31 +7,44 @@
     <title>WebGis Tulang Bawang</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!DOCTYPE html>
+
+    <title>
+        <?= $title ?>
+    </title>
+
+    <!-- Custom fonts for this template-->
+    <link href="<?= base_url('assets/') ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="<?= base_url('assets/') ?>https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="<?= base_url('assets/') ?>css/sb-admin-2.min.css" rel="stylesheet">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets/');?>img/354px-LOGO_KABUPATEN_TULANG_BAWANG.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets/'); ?>img/354px-LOGO_KABUPATEN_TULANG_BAWANG.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/login.css" >
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/magnific-popup.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/themify-icons.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/nice-select.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/flaticon.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/gijgo.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/animate.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/slicknav.css">
-    <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/login.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/themify-icons.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/nice-select.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/flaticon.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/gijgo.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/animate.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/slicknav.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/'); ?>css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
     <style>
         /* script menghilangkan Horizontal Scroll */
-        html, body {
-        max-width: 100%;
-        overflow-x: hidden;
+        html,
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
         }
     </style>
 
@@ -46,14 +59,14 @@
                     <div class="header_bottom_border">
                         <div class="row align-items-center">
                             <div class="col-xl-5 col-lg-5">
-                                
+
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                        <li><a class="active" href="<?= base_url('c_home/index')?>">Beranda</a></li>
-                                            <li><a href="<?= base_url('c_about/index')?>">Info</a></li>
-                                            <li><a href="<?= base_url('c_kontak/index')?>">Kontak</a></li>
-                                            <li><a href="<?= base_url('Auth/index')?>"> Admin</i></a>
+                                            <li><a class="active" href="<?= base_url('c_home/index') ?>">Beranda</a></li>
+                                            <li><a href="<?= base_url('c_about/index') ?>">Info</a></li>
+                                            <li><a href="<?= base_url('c_kontak/index') ?>">Kontak</a></li>
+                                            <li><a href="<?= base_url('Auth/index') ?>"> Admin</i></a>
                                         </ul>
                                     </nav>
                                 </div>
@@ -90,23 +103,3 @@
         </div>
     </header>
     <!-- header-end -->
-
-     <!-- bradcam_area  -->
-     <div class="bradcam_area bradcam_bg_4" >
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
-                        <div class="logo">
-                                    <a href="index.html">
-                                        <img src="<?php echo base_url('assets/');?>img/354px-LOGO_KABUPATEN_TULANG_BAWANG.png" alt="" style="width: 150px;height: 215px; margin: 10px; margin-top: 0px;">
-
-                                    </a>
-                                </div>
-                        <h1 style="color:white ; font-size: 50px; font-family: 'Montserrat',sans-serif; padding: 20px; "> Login </h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ bradcam_area  -->
