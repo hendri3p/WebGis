@@ -14,30 +14,28 @@
      <!-- Heading -->
      <div class="sidebar-heading">
          Administrator
-     </div>
+     </div> 
 
      <!-- Nav Item - Dashboard -->
-     <li class="nav-item">
+     <!-- <li class="nav-item">
          <a class="nav-link" href="index.html">
              <i class="fas fa-fw fa-tachometer-alt"></i>
              <span>Dashboard</span></a>
+     </li> -->
+
+     <li class="nav-item">
+         <a class="nav-link" href="<?= base_url('kelola')?>">
+             <i class="fas fa-fw fa-tachometer-alt"></i>
+             <span>Kelola</span></a>
      </li>
 
      <!-- Divider -->
      <hr class="sidebar-divider">
 
-     <!-- Heading -->
-     <div class="sidebar-heading">
-         User
-     </div>
-
-     <!-- Divider -->
-     <hr class="sidebar-divider">
-
      <!-- Sidebar Toggler (Sidebar) -->
-     <div class="text-center d-none d-md-inline">
+     <!-- <div class="text-center d-none d-md-inline">
          <button class="rounded-circle border-0" id="sidebarToggle"></button>
-     </div>
+     </div> --> 
 
  </ul>
  <!-- End of Sidebar -->

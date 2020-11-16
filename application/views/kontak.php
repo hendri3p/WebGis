@@ -66,9 +66,9 @@
                                     <div class="social_links d-none d-xl-block">
                                         <ul>
                                             <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
-                                            <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
+                                            <!-- <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li> -->
                                             <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                            <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                            <!-- <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -119,7 +119,8 @@
                         <h2 class="contact-title">Hubungi Kami</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <?php include 'Email.php';?>
+                        <!-- <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -145,7 +146,9 @@
                             <div class="form-group mt-3">
                                 <button type="submit" class="button button-contactForm boxed-btn">Kirim</button>
                             </div>
-                        </form>
+                        </form> -->
+            <!-- <div style="padding: 5px 30px;"> -->
+
                     </div>
                     <div class="col-lg-3 offset-lg-1">
                         <div class="media contact-info">
@@ -169,7 +172,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+            
+    </section>
     <!-- ================ contact section end ================= -->
     
     <!-- footer start -->

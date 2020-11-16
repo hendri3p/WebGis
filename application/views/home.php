@@ -68,10 +68,10 @@
                                     </div>
                                     <div class="social_links d-none d-xl-block">
                                         <ul>
-                                            <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
-                                            <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                            <!-- <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li> -->
                                             <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                            <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                            <!-- <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@
                         </div>
                         <h1 style= "color: white ; font-size: 50px; font-family: 'Montserrat',sans-serif; padding: 20px;">Situs Resmi <br> Kabupaten Tulang Bawang</h1>
                                 <p style=" font-size: 15px; ">SITUS INI ADALAH SITUS WEB GIS NILAI TANAH DI KABUPATEN TULANG BAWANG </p>
-                                <a href="#" class="boxed-btn3" style="color: black; margin: 20px;">KUNJUNGI SITUS WEB GIS</a>
+                                <a href="<?= base_url('c_map/index')?>" class="boxed-btn3" style="color: black; margin: 20px;">KUNJUNGI SITUS WEB GIS</a>
                     </div>
                 </div>
             </div>
